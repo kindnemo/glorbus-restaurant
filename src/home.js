@@ -2,6 +2,7 @@ const contentDiv = document.getElementById('content');
 const HomeBtn = document.getElementById('home');
 
 function renderHome (){
+    contentDiv.innerHTML = "";  //To clean the content div before appending
     const heroDiv = document.createElement('div');
     const heroDivHeading = document.createElement('div');
     const heroParaOne = document.createElement('p');
