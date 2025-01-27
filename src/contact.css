@@ -1,0 +1,31 @@
+#container-div{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact-container{
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent black */
+    backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 300px;
+    gap: 60px;
+}
+
+.para-div{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-headings{
+    font-size: 2rem;
+    color:orange;
+    font-weight: bold;
+}
+.contact-para{
+    font-size:1.5rem;
+}

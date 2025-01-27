@@ -1,6 +1,5 @@
 const contentDiv = document.getElementById('content');
 const AboutUs = document.getElementById("about");
-let foods = ["biriyani", "tandoori chicken", "Seek Kabab", "Shahi Paneer", "Palak Paneer", "Chhole Bhature"]
 
 function renderAbout (){
     contentDiv.innerHTML = ""; //To clean the content div before appending
