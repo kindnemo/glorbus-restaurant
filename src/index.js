@@ -2,6 +2,8 @@ import "./resetter.css";
 import "./styles.css";
 import "./about.css";
 import "./contact.css";
+import "./menu.css"
 import "./contact.js";
+import "./menu.js";
 import "./home.js";
 import "./about.js";

@@ -25,8 +25,6 @@ function renderContactUs () {
 
         paraDiv.append(li, parali);
         dFrag.appendChild(paraDiv);
-        
-        console.log(paraDiv);
     }
 
     containerDiv.setAttribute("id", "container-div");
